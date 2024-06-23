@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta name='robots' content='noindex' /><!--このページで見たことは綺麗さっぱり忘れやがれ（検索結果に出すな）-->
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no"><!--電話番号っぽくてもリンクにするな！-->
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <title>ポケモンクイズ</title>
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://mbyk02.github.io/" />
+  <meta property="og:site_name" content="ポケモンクイズ" />
+  <meta property="og:image" content="" />
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <main class="quiz">
+      <div class="inner-block">
+
+        <div class="quiz-content">
+
+          <div class="finish">
+            <div class="score-wrap">
+              <span class="score">0</span>
+              <span class="ja">点</span>
+              <span class="full">／50点</span>
+            </div>
+            <a href="./" class="goback-button">最初からやり直す</a>
+          </div>
+
+          <div class="quiz-question-number"></div>
+          <h2 class="quiz-question"></h2>
+
+          <ul class="quiz-answer">
+            <li>
+            <label class="quiz-button button01">
+              <input name="radio" type="radio" value="">
+              <span class="quiz-text01"></span>
+            </label>
+            </li>
+            <li>
+              <label class="quiz-button button02">
+                <input name="radio" type="radio" value="">
+                <span class="quiz-text02"></span>
+              </label>
+            </li>
+            <li>
+              <label class="quiz-button button03">
+                <input name="radio" type="radio" value="">
+                <span class="quiz-text03"></span>
+              </label>
+            </li>
+            <li>
+              <label class="quiz-button button04">
+                <input name="radio" type="radio" value="">
+                <span class="quiz-text04"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </main>
+
+  </div><!-- /wrapper -->
+
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/common.js"></script>
+</body>
+
+</html>
